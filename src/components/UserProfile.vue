@@ -2,6 +2,7 @@
     <div v-if="user">
       <h1>{{ user.name }}</h1>
       <p>{{ user.bio }}</p>
+      <p>{{ user.blog }}</p>
       <img :src="user.avatar_url" alt="User avatar" />
     </div>
     <div v-else>
